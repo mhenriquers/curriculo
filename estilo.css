@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #0055aa;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 5px;
+}
+
+li {
+    margin-left: 50px;
+}
+
+button{
+    background: #0055aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    align-content: center;
+
+}
+
+button:hover {
+    background: #2583e8;
+}
+#botao {
+  padding: 20px;
+  text-align: center; /* Centraliza o título */
+}
+
+#botao h2 {
+  margin-bottom: 10px;
+}
+
+/* Cria um contêiner flex só para os botões */
+#botao-buttons {
+  display: flex;
+    justify-content: space-evenly;
+  flex-wrap: wrap; /* permite que quebrem linha em telas pequenas */
+}
+
+/* Estilo dos botões */
+#botao button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#botao button:hover {
+  background-color: #0056b3;
+}
