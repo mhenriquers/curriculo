@@ -1,6 +1,6 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f3f3f3;
+  background-image: url('fundo.jpg');
   color: #333;
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@ section {
 }
 
 h2 {
-  color: #0055aa;
+  color: #000000;
   border-bottom: 1px solid #ccc;
   padding-bottom: 5px;
 }
@@ -77,12 +77,13 @@ button:hover {
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  background-color: #007bff;
+  background-image: url(fundo.jpg);
   color: white;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
 #botao button:hover {
-  background-color: #0056b3;
+  background-image: url(fundo.jpg);
+  filter: brightness(50%);
 }
