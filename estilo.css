@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Roboto' , sans-serif;
   background-image: url('fundo.jpg');
   color: #333;
   margin: 0;
@@ -15,6 +15,26 @@ body {
   border-radius: 10px;
   box-shadow: 0 0 10px #ccc;
   box-sizing: border-box;
+}
+.container ul{
+  list-style-type: none; /* remove o marcador*/
+  paddin-left: 0; /*remove o recuo*/
+}
+
+.container li {
+  position: relative; /*necessário para o ícone funcionar*/
+  margin-bottom: 8px; /*espaçamento ver entre os itens*/
+  padding-left: 28px; /*cria espaço à esquerda para o ícone*/ 
+}
+
+.container li::before{
+  content: '✓'; 
+  position: absolute; /* posiciona o icone*/
+  left: 0;
+  top: 0;
+  color:#007bff; /*cor azul tech*/
+  font-weight: bold;
+  font-size: 1.2em; /* tamanho do icone*/
 }
 
 header {
@@ -92,5 +112,6 @@ button:hover {
   background-image: url(fundo.jpg);
   filter: brightness(50%);
 }
+
 
 
