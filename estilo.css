@@ -90,7 +90,7 @@ button:hover {
   display: flex;
     justify-content: space-evenly;
   flex-wrap: nowrap; /*não permite que quebrem linha em telas pequenas */
-  gap: 5px;
+  gap: 2px;
 }
 #botao-buttons button {
   flex: 1; /*esta é a mágica */
@@ -98,7 +98,7 @@ button:hover {
 
 /* Estilo dos botões */
 #botao button {
-  padding: 10px 8px;
+  padding: 5px 4px;
   font-size: 16px;
   border: none;
   border-radius: 8px;
@@ -116,10 +116,6 @@ button:hover {
 /* Adiciona um espaço (respiro) entre as seções do currículo */
 .container section + section {
     margin-top: 35px; /* Altere este valor se quiser mais ou menos espaço */
-}
-/* --- CÓDIGO DE DEBUG TEMPORÁRIO --- */
-* {
-    border: 1px solid red !important;
 }
 
 
