@@ -123,15 +123,17 @@ button:hover {
 
 
 
-/* --- APAGUE ESTE CÓDIGO DEPOIS --- */
+/* --- APAGUE ESTE CÓDIGO DEPOIS --- 
 * {
     border: 1px solid red !important;
 }
+*/
 
 /* Garante que o conteúdo dos cards não vaze horizontalmente */
 .card-body {
     overflow-x: hidden;
     word-wrap: break-word;
 }
+
 
 
