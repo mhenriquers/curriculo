@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-  width: 90%;
+  width: 85%;
   max-width: 800px;
   margin: 40px auto;
   background: #fff;
@@ -127,4 +127,5 @@ button:hover {
 * {
     border: 1px solid red !important;
 }
+
 
