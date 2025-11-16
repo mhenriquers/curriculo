@@ -117,5 +117,8 @@ button:hover {
 .container section + section {
     margin-top: 35px; /* Altere este valor se quiser mais ou menos espaço */
 }
+#titulo-ads{
+  font-size: 1.1rem;
+}
 
 
