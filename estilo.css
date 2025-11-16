@@ -70,7 +70,7 @@ button:hover {
   display: flex;
     justify-content: space-evenly;
   flex-wrap: nowrap; /*não permite que quebrem linha em telas pequenas */
-  gap: 10px;
+  gap: 5px;
 }
 #botao-buttons button {
   flex: 1; /*esta é a mágica */
@@ -78,7 +78,7 @@ button:hover {
 
 /* Estilo dos botões */
 #botao button {
-  padding: 10px 20px;
+  padding: 10px 8px;
   font-size: 16px;
   border: none;
   border-radius: 8px;
@@ -92,4 +92,5 @@ button:hover {
   background-image: url(fundo.jpg);
   filter: brightness(50%);
 }
+
 
