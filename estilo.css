@@ -123,4 +123,8 @@ button:hover {
 
 
 
+/* --- APAGUE ESTE CÓDIGO DEPOIS --- */
+* {
+    border: 1px solid red !important;
+}
 
