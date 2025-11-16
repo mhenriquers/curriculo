@@ -113,5 +113,9 @@ button:hover {
   filter: brightness(50%);
 }
 
+/* Adiciona um espaço (respiro) entre as seções do currículo */
+.container section + section {
+    margin-top: 35px; /* Altere este valor se quiser mais ou menos espaço */
+}
 
 
