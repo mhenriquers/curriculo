@@ -117,5 +117,9 @@ button:hover {
 .container section + section {
     margin-top: 35px; /* Altere este valor se quiser mais ou menos espaço */
 }
+/* --- CÓDIGO DE DEBUG TEMPORÁRIO --- */
+* {
+    border: 1px solid red !important;
+}
 
 
